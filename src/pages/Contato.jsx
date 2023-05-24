@@ -3,7 +3,8 @@ function Contato(){
         <div>
         <h1>Contato</h1>
         <h1>ola mundo</h1>
-        </div>)
+        </div>
+        )
 }
 
 export default Contato
