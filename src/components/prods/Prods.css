@@ -1,0 +1,10 @@
+h1{
+    font-size: 100px;
+}
+img{
+    border: 1px;
+    padding: 10px;
+    border-color: brown;
+    height: 100px;
+    width: 100px;
+}

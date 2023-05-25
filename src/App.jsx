@@ -3,8 +3,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./pages/home/Home"
 import Sobre from "./pages/Sobre"
 import Header from "./components/header/Header"
-import Produto from "./pages/Produto"
+
 import Contato from "./pages/Contato"
+import Produto from "./pages/Produto/Produto"
 
 function App() {
   return (
