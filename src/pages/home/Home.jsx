@@ -18,7 +18,7 @@ function Home() {
 
          <div className="imgs-mid">
             <div className="emogi-malandro"></div>
-            <div className="emogi-feliz"></div>
+            <div className="emogi-feliz "></div>
          </div>
         </>
     )
