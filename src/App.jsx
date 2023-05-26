@@ -4,8 +4,11 @@ import Home from "./pages/home/Home"
 import Sobre from "./pages/Sobre"
 import Header from "./components/header/Header"
 
-import Contato from "./pages/Contato"
+
 import Produto from "./pages/Produto/Produto"
+
+import Contato from "./pages/contato/Contato"
+
 
 function App() {
   return (

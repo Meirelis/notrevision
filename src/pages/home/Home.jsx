@@ -3,8 +3,14 @@ import "./home.css";
 function Home() {
 
     return (
-        <div className="bg-imag">
-        </div>
+        <div>
+            <div className="bg-imag">
+            </div>
+             <div className="texto-banner">
+             <p>O estilo é ser</p>
+             <p>VOCÊ</p>
+             </div>
+         </div>
     )
 }
 
