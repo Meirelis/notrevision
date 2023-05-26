@@ -10,10 +10,10 @@ function Header(){
     return(
       <div className="cabecalho">
         <ul>
-              <li><Link to="/"><a>Home</a></Link></li>
-              <li><Link to="/Sobre"><a>Sobre</a></Link></li>
-              <li><Link to="/Contato"><a>Contato</a></Link></li>
-              <li><Link to="/Produto"><a>Produto</a></Link></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/Sobre">Sobre</Link></li>
+              <li><Link to="/Contato">Contato</Link></li>
+              <li><Link to="/Produto">Produto</Link></li>
               <img src={Imglocal}/>
           </ul> 
        </div>
