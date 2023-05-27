@@ -1,20 +1,23 @@
 import { Link } from "react-router-dom";
 import "./index.css"
 import Imglocal from "../../assets/img-local.png"
+import ImgLogo from "../../assets/notre-logo.png"
+import { useNavigate } from "react-router-dom";
 
 
 
 function Header(){
-   
+  const navigate = useNavigate();
+  const navigateLogo = useNavigate()
 
     return(
       <div className="cabecalho">
         <ul>
+              <img src={ImgLogo} onClick={() => navigateLogo('/')} id="logo"/>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/Sobre">Sobre</Link></li>
               <li><Link to="/Contato">Contato</Link></li>
               <li><Link to="/Produto">Produto</Link></li>
-              <img src={Imglocal}/>
+              <img src={Imglocal} onClick={() => navigate('/Sobre')} id="local" />
           </ul> 
        </div>
         
