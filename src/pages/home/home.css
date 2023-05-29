@@ -60,3 +60,11 @@
     max-height: 50px;
     width: 50px;
 }
+.imgs-mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.imgs-mid p{
+    max-width: 1100px;
+}

@@ -45,7 +45,7 @@ function Produto() {
                 </Grid>
 
                 <Grid item md={3}>
-                    <Prods img={oculos3} />
+            
 
                 </Grid>
             </Grid>

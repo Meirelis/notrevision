@@ -1,5 +1,6 @@
 import "./home.css";
-
+import emoji from '../../assets/emogi-oculos.png';
+import Footer from "../../components/footer/Footer";
 function Home() {
 
     return (
@@ -17,9 +18,14 @@ function Home() {
          <div className="divisor"></div>
 
          <div className="imgs-mid">
-            <div className="emogi-malandro"></div>
-            <div className="emogi-feliz "></div>
+            <img src={emoji} alt="emoji"/>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis minus corporis nemo hic. Eius veniam qui perspiciatis fuga ullam dolorum hic eum quis, dignissimos possimus saepe aliquid quibusdam, fugit dolores!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis minus corporis nemo hic. Eius veniam qui perspiciatis fuga ullam dolorum hic eum quis, dignissimos possimus saepe aliquid quibusdam, fugit dolores!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis minus corporis nemo hic. Eius veniam qui perspiciatis fuga ullam dolorum hic eum quis, dignissimos possimus saepe aliquid quibusdam, fugit dolores!
+            </p>
          </div>
+         
         </>
 
         
