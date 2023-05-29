@@ -1,3 +1,7 @@
+*{
+    background-color: rgb(158, 158, 158);
+}
+
 .container-banner{
     display: flex;
     background-color: #a66879;
@@ -5,7 +9,7 @@
 }
 
 .texto-banner{
-    
+    background-color: #a66879;
     margin-top: 30px;
     width: 1000px;
     display: flex;
@@ -13,7 +17,12 @@
     flex-direction: column;
 }
 
+.texto-banner p{
+    background-color: #a66879
+}
+
 .big{
+    background-color: #a66879;
     font-size: 150px;
     color: white;
     margin-right: 550px;
@@ -24,6 +33,7 @@
     color: white;
     margin-right: 550px;
     width: 300px;
+    background-color: #a66879;
 }
 
 .texto-legenda{
@@ -31,10 +41,12 @@
     color: white;
     padding-left: 30px;
     width: 650px;
+    background-color: #a66879
 }
 
 .texto-legenda strong{
     color: #650416;
+    background-color: #a66879
 }
 
 .bg-imag{
@@ -54,9 +66,7 @@
     background-color: black;
 }
 
-.emogi-malandro{
-    background-image: url("../../assets/emogi-oculos.png");
-    max-width: 50px;
-    max-height: 50px;
-    width: 50px;
+.carrossel{
+    background-image: url("../../assets/abacaxi.png");
+    background-size: 2500px;
 }
