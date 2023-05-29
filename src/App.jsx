@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 import Home from "./pages/home/Home"
-import Sobre from "./pages/Sobre"
+import Sobre from "./pages/sobre/Sobre"
 import Header from "./components/header/Header"
-
+import Footer from "./components/footer/Footer"
 
 import Produto from "./pages/Produto/Produto"
 
@@ -24,6 +24,8 @@ function App() {
 
         </Routes>
       </BrowserRouter>
+      <Footer/>
+
     </>
   )
 }
