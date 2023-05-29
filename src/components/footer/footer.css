@@ -1,0 +1,23 @@
+.footer{
+    padding: 30px;
+    background-color: #650416;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer img{
+    height: 40px;
+    width: 40px;
+    cursor: default;
+    margin-right: 5px;
+}
+.footer p{
+    color: #fff;
+    margin-right: 30px;
+}
+#tel{
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}

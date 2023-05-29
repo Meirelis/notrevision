@@ -1,5 +1,6 @@
 import "./home.css";
-
+import emoji from '../../assets/emogi-oculos.png';
+import Footer from "../../components/footer/Footer";
 function Home() {
 
     return (
@@ -17,19 +18,16 @@ function Home() {
          <div className="divisor"></div>
 
          <div className="imgs-mid">
-            <div className="emogi-malandro"></div>
-            <div className="emogi-feliz "></div>
+            <img src={emoji} alt="emoji"/>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis minus corporis nemo hic. Eius veniam qui perspiciatis fuga ullam dolorum hic eum quis, dignissimos possimus saepe aliquid quibusdam, fugit dolores!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis minus corporis nemo hic. Eius veniam qui perspiciatis fuga ullam dolorum hic eum quis, dignissimos possimus saepe aliquid quibusdam, fugit dolores!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis minus corporis nemo hic. Eius veniam qui perspiciatis fuga ullam dolorum hic eum quis, dignissimos possimus saepe aliquid quibusdam, fugit dolores!
+            </p>
          </div>
 
-         <div className="container-mid">
-            <div className="carrossel"></div>
-            
-            <div className="apresentacao">
-                <p>Bem-vindo ao nosso site de ótica! Aqui você irá descobrir os serviços e produtos que oferecemos.
-                Nossa equipe de especialistas em ótica está comprometida em fornecer a você uma experiência visual de alta qualidade, garantindo que suas necessidades sejam atendidas da melhor forma possível.
-                Nossos serviços abrangem desde exames de visão abrangentes até a seleção e adaptação de lentes de contato e óculos. Com equipamentos modernos e uma abordagem personalizada, nossa equipe está pronta para ajudá-lo a alcançar a melhor experiência visual e o conforto visual ideal.</p>
-            </div>
-         </div>
+
+      
         </>
 
         
