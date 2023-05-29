@@ -25,7 +25,9 @@ function Home() {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis minus corporis nemo hic. Eius veniam qui perspiciatis fuga ullam dolorum hic eum quis, dignissimos possimus saepe aliquid quibusdam, fugit dolores!
             </p>
          </div>
-         
+
+
+      
         </>
 
         
