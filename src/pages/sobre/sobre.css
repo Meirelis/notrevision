@@ -1,0 +1,39 @@
+iframe{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid #650416;
+    margin: 50px;
+    box-shadow: 2px 5px 10px rgb(232, 216, 216);
+}
+.mapas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 780px;
+}
+.mapa1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #650416;
+    font-size: 25px;
+    margin-top: 30px;
+    text-shadow: rgb(232, 216, 216) 2px 2px 1px;
+    
+}
+.tudolocal{
+    display: flex;
+    flex-direction: column;
+    background-color: #B6AEAA;
+    font-family: 'Trocchi', serif;
+}
+.tudolocal h1{
+    text-transform: capitalize;
+    margin-top: 7px;
+    color: #650416;
+    text-shadow: rgb(232, 216, 216) 2px 2px 1px;
+   
+    
+}
