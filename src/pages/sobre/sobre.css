@@ -1,0 +1,12 @@
+iframe{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid #650416;
+    margin: 50px;
+}
+.sla1{
+    display: flex;
+    justify-content: space-evenly;
+}
