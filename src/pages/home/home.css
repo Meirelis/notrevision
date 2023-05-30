@@ -1,6 +1,3 @@
-*{
-    background-color: rgb(158, 158, 158);
-}
 
 .container-banner{
     display: flex;
@@ -67,3 +64,54 @@
 }
 
 
+.imgs-mid{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abacaxi{
+    background-image: url("../../assets/abacaxi.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+}
+.garotinho{
+    background-image: url("../../assets/garotinho.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 500px;
+}
+.hamilton{
+    background-image: url("../../assets/hamilton.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 500px;
+}
+
+.carrosel {
+    height: 500px;
+    width: 500px;
+}
+.txtCar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    gap: 300px;
+    height: 500px;
+    margin-bottom: 200px;
+
+}
+.txtCar p{
+    width: 800px;
+}
+.imgs-mid{
+    width: 800px;
+}
+.tudo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
