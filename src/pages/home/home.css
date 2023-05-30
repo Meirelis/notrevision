@@ -1,11 +1,9 @@
-*{
-    background-color: rgb(158, 158, 158);
+body{
+    background-color: #B6AEAA;
 }
-
 .container-banner{
     display: flex;
     background-color: #a66879;
-    
 }
 
 .texto-banner{
@@ -67,3 +65,63 @@
 }
 
 
+.imgs-mid{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+}
+
+/*.abacaxi{
+    background-image: url("../../assets/abacaxi.png");
+    background-repeat: no-repeat;
+    height: 398px;
+    width: 647px;
+}*/
+.garotinho{
+    background-image: url("../../assets/garotinho.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 500px;
+}
+.hamilton{
+    background-image: url("../../assets/hamilton.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 500px;
+}
+
+
+.carrosel {
+    height: 500px;
+    width: 500px;
+}
+.txtCar{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    width: 1200px;
+    gap: 100px;
+    height: 500px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+.txtCar p{
+    width: 800px;
+}
+.imgs-mid{
+    width: 800px;
+}
+.tudo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-car{
+    display: flex;
+    align-items: center;
+    font-size: 31px;
+}
