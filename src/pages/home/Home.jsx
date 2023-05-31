@@ -1,8 +1,5 @@
 import "./home.css";
-import emoji from '../../assets/emogi-oculos.png';
-import Footer from "../../components/footer/Footer";
 import Carousel from "react-material-ui-carousel";
-import abacaxi from '../../assets/emogi-oculos.png'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
