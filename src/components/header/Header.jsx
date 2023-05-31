@@ -17,7 +17,6 @@ function Header(){
         <ul>
               <img src={ImgLogo} onClick={() => navigateLogo('/')} id="logo"/>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/Contato">Contato</Link></li>
               <li><Link to="/Produto">Produto</Link></li>
               <img src={Imglocal} onClick={() => navigate('/Sobre')} id="local" />
           </ul> 
