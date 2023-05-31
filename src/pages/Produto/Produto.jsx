@@ -15,7 +15,7 @@ function Produto() {
                     <Prods img={oculos2} />
                 </Grid>
                 <Grid item md={3}>
-                    <Prods img={oculos3} />
+                    <Prods img={oculos4} />
 
                 </Grid>
                 <Grid item md={3}>
@@ -33,12 +33,12 @@ function Produto() {
                 </Grid>
 
                 <Grid item md={3}>
-                    <Prods img={oculos3} />
+                    <Prods img={oculos1} />
 
                 </Grid>
 
                 <Grid item md={3}>
-                    <Prods img={oculos3} />
+                    <Prods img={oculos2} />
 
                 </Grid>
 
