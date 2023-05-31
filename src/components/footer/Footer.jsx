@@ -6,11 +6,11 @@ function Footer(){
     return(
         <div className='footer'>
             <img src={email} alt=""/>
-            <p>sla123@gmail.com</p> 
+            <p>notrevision@gmail.com</p> 
             <img src={insta} alt=""/>
-            <p>@umaoticaaí</p>
+            <p>@oticanotrevision</p>
             <img src={tel} alt="" id='tel'/>
-            <p>119123456</p>
+            <p>+55 11962795360</p>
         </div>
     )
 }

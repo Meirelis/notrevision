@@ -10,8 +10,11 @@
 img{
     width: 300px;
     height: 150px;
-    border-bottom: 2px solid #650416;
-    background-color: rgba(128, 128, 128, 0.288);
+    border-bottom: 2px solid #650416;  
+}
+
+.prods img{
+    background-color: rgba(128, 128, 128, 0.295);
 }
 .p1{
     font-size: 50px;
