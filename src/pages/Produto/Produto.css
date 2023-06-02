@@ -11,3 +11,9 @@
 .escuros img{
     background-color: rgba(128, 128, 128, 0.295);
 }
+h1{
+    text-shadow: rgb(232, 216, 216) 2px 2px 1px;
+    font-family: 'Trocchi', serif;
+    color: #650416;
+}
+

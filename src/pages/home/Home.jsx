@@ -8,7 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Home() {
 
     return (
-        <div className="tudoHome">
+        <div className="tudoHome"> 
             <div className="container-banner">
                 <div className="bg-imag">
                 </div>
