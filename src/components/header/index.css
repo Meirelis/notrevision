@@ -5,29 +5,25 @@
    
 }
 
-ul{
+nav{
     background-color: #650416;
     color: azure;
     width: 100%;
-    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 40px;
     gap: 45px;
-    
-    list-style: none
 }
 
 a{
     color: azure;
     text-decoration: none;
-    width: 100px;
 }
-
-img{
+.cabecalho img{
     cursor: pointer;
 }
+
 #logo{
     height: 80px;
     width: 80px;

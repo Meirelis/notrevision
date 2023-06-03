@@ -1,32 +1,26 @@
 import "./home.css";
 import Carousel from "react-material-ui-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-
-
+import moca from "../../assets/mocinha-oculos.png"
 
 function Home() {
 
     return (
-        <div className="tudoHome"> 
-            <div className="container-banner">
-                <div className="bg-imag">
-                </div>
 
-                <div className="texto-banner">
-                    <p className="big">O estilo é ser</p>
-                    <p className="big-voce"><strong>VOCÊ</strong></p>
-                    <p className="texto-legenda"><strong>Liberte-se</strong> das limitações e aproveite a vida com clareza e conforto</p>
-                </div>
+        <div className="tudoHome">
+           
+            <div className="bg-imag">
+                    <img src={moca}/>
+                    <div className="texto-banner">
+                        <h1>O estilo é ser</h1>
+                        <h2>VOCÊ</h2>
+                        <p><strong>Liberte-se</strong> das limitações e aproveite a vida com clareza e conforto</p>
+                    </div>    
+
             </div>
-
-
-
             <div className="divisor"></div>
 
-        
             <div className="txtCar">
-
                 <div className="imgs-mid">
                     <Carousel className="carrosel">
                         <div className="garotinho"></div>
@@ -39,16 +33,9 @@ function Home() {
                         Nossos serviços abrangem desde exames de visão abrangentes até a seleção e adaptação de lentes de contato e óculos. Com equipamentos modernos e uma abordagem personalizada, nossa equipe está pronta para ajudá-lo a alcançar a melhor experiência visual e o conforto visual ideal.
                     </p>
                 </div>
-
-
             </div>
 
-
-
-
         </div>
-
-
     )
 }
 

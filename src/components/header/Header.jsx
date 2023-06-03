@@ -1,27 +1,24 @@
 import { Link } from "react-router-dom";
-import "./index.css"
-import Imglocal from "../../assets/img-local.png"
-import ImgLogo from "../../assets/notre-logo.png"
+import "./index.css";
+import Imglocal from "../../assets/img-local.png";
+import ImgLogo from "../../assets/notre-logo.png";
 import { useNavigate } from "react-router-dom";
-
-
-
 
 function Header(){
   const navigate = useNavigate();
-  const navigateLogo = useNavigate()
+  const navigateLogo = useNavigate();
 
     return(
       
       <div className="cabecalho">
-        <ul>
+        <nav>
               <img src={ImgLogo} onClick={() => navigateLogo('/')} id="logo"/>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/Produto">Produto</Link></li>
-              <img src={Imglocal} onClick={() => navigate('/Sobre')} id="local" />
-          </ul> 
+              <Link to="/">Home</Link>
+              <Link to="/Produto">Produto</Link>
+              <img src={Imglocal} onClick={() => navigate('/Sobre')} id="local" /> 
+        </nav>
        </div>
-        
+
     )
 }
 
@@ -83,7 +80,7 @@ export default Header;
           }}
         >
             {menuData.map(el => (
-                <MenuItem key={el.id} onClick={() => handleClose(el.link)}>{el.name}</MenuItem>
+             <MenuItem key={el.id} onClick={() => handleClose(el.link)}>{el.name}</MenuItem>
             ))}
         </Menu>
       </div>*/
