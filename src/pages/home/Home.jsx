@@ -28,10 +28,11 @@ function Home() {
                     </Carousel>
                 </div>
                 <div className="texto-car">
-                    <p>Bem-vindo ao site da nossa ótica! Aqui você irá descobrir os serviços e produtos que oferecemos.
-                        Nossa equipe de especialistas em ótica está comprometida em fornecer a você uma experiência visual de alta qualidade, garantindo que suas necessidades sejam atendidas da melhor forma possível.
-                        Nossos serviços abrangem desde exames de visão abrangentes até a seleção e adaptação de lentes de contato e óculos. Com equipamentos modernos e uma abordagem personalizada, nossa equipe está pronta para ajudá-lo a alcançar a melhor experiência visual e o conforto visual ideal.
-                    </p>
+                    <p> Bem-vindo ao site da nossa ótica! Aqui você irá descobrir os serviços e produtos que oferecemos.</p>
+                    <p>Nossa equipe de especialistas em ótica está comprometida em fornecer a você uma experiência visual de alta qualidade, garantindo que suas necessidades sejam atendidas da melhor forma possível.</p>
+                    <p> Nossos serviços abrangem desde exames de visão abrangentes até a seleção e adaptação de lentes de contato e óculos. Com equipamentos modernos e uma abordagem personalizada, nossa equipe está pronta para ajudá-lo a alcançar a melhor experiência visual e o conforto visual ideal.</p>
+                       
+                    
                 </div>
             </div>
 

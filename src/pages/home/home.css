@@ -12,7 +12,12 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+.tudoHome h1{
+    text-shadow: -5px 5px #650416;
+}
+.tudoHome h2{
+    text-shadow: 5px 1px #B6AEAA;
+}
 .container-banner{
     display: flex;
     background-color: #a66879;
@@ -20,6 +25,7 @@ body{
     align-items: center;
     width: 100vh;
     height: 60vh;
+    overflow: hidden;
 }
 
 .texto-banner{
@@ -61,6 +67,7 @@ body{
     width: 50%;
     height: 100%;
     border: none;
+    filter: saturate(1.5);
 }
 
 .divisor{
@@ -72,9 +79,7 @@ body{
 .imgs-mid{
     width: 1000px;
     height: 100px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 500px;
+    
 }
 
 .garotinho{
@@ -99,25 +104,24 @@ body{
 .txtCar{
     display: flex;
     justify-content: space-around;
-    padding: 150px;
+    padding: 80px;
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 
 .txtCar p{
     font-family: 'Trocchi', serif;
     width: 100vh;
     height: 60vh;
+    padding: 1px;
 }
-
-.imgs-mid{
-    margin: 0;
-}
-
 .texto-car{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 50px;
+    justify-content: center;
+    margin: 0;
     font-size: 31px;
-    width: 100vh;
+    width: 210vh;
+    text-indent: 20px;
 }
