@@ -117,6 +117,7 @@ body{
 .texto-car{
     display: flex;
     align-items: center;
+    padding: 50px;
     font-size: 31px;
     width: 100vh;
 }
