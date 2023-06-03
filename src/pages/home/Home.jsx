@@ -6,6 +6,7 @@ import moca from "../../assets/mocinha-oculos.png"
 function Home() {
 
     return (
+
         <div className="tudoHome">
            
             <div className="bg-imag">
@@ -15,6 +16,7 @@ function Home() {
                         <h2>VOCÊ</h2>
                         <p><strong>Liberte-se</strong> das limitações e aproveite a vida com clareza e conforto</p>
                     </div>    
+
             </div>
             <div className="divisor"></div>
 
