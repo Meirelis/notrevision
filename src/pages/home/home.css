@@ -36,19 +36,17 @@ body{
     flex-direction: column;
     color: #fff;   
 }
-
-.texto-banner h2{
-    color: #fff;
-    font-size: 110px;
-    padding-right: 40%;
-}
-
 .texto-banner h1{
     font-size: 110px;
     color: #fff;
     font-family: 'trocchi';
     font-weight: 100;
     padding-right: 10%;
+}
+.texto-banner h2{
+    color: #fff;
+    font-size: 110px;
+    padding-right: 40%;
 }
 
 .texto-banner strong{
@@ -67,7 +65,6 @@ body{
     width: 50%;
     height: 100%;
     border: none;
-    filter: saturate(1.5);
 }
 
 .divisor{
@@ -79,7 +76,7 @@ body{
 .imgs-mid{
     width: 1000px;
     height: 100px;
-    
+
 }
 
 .garotinho{

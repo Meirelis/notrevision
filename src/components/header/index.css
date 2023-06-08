@@ -21,10 +21,9 @@ a{
     transition: 200ms;
 }
 a:hover{
-    color: #7e797a;
+    color: #d9822c;
     text-shadow: -3px 5px  #000;
-
-   
+    transform: translate(5px);   
 }
 .cabecalho img{
     cursor: pointer;
