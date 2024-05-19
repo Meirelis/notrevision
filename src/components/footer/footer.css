@@ -1,5 +1,4 @@
 .footer{
-    padding: 30px;
     background-color: #650416;
     height:50px;
     display: flex;
@@ -20,4 +19,26 @@
     padding: 10px;
     border: 2px solid #fff;
     border-radius: 50px;
+}
+@media (min-width: 190px) and (max-width: 376px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 1%;       
+        align-items: center;
+        font-size: 80%;
+        height: 35vh;
+        margin: 0;
+    }
+    .footer img{
+        margin: 0;
+        margin-top: 1%;
+    }
+    .footer p{
+        margin-right: 0;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
 }

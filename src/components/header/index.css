@@ -12,22 +12,39 @@ nav{
     align-items: center;
     justify-content: center;
     font-size: 40px;
-    gap: 45px;
+    gap: 5%;
 }
 
 a{
     color: azure;
     text-decoration: none;
 }
+.cabecalho{
+    background-color: #650416;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .cabecalho img{
     cursor: pointer;
 }
-
 #logo{
-    height: 80px;
-    width: 80px;
+    height: 20%;
+    width: 15%;
 }
 #local{
-    height: 60px;
-    width: 150px;
+    height: 20%;
+    width: 10%;
+}
+@media (min-width: 190px) and (max-width: 376px) {
+    nav{
+        width: 80%;
+        font-size: 80%;
+    }
+    #local{
+        height: 10%;
+        width: 20%;
+        background-color: #650416;
+    }
+
 }
