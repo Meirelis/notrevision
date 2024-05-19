@@ -11,6 +11,7 @@
         background-color: #fff;
     }
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +21,9 @@ body{
     background-color: #B6AEAA;
     width: 100%;
 }
-
+#abacaxi{
+    display: none;
+}
 .tudoHome{
     display: flex;
     flex-direction: column;
@@ -117,6 +120,9 @@ body{
 @media (min-width: 190px) and (max-width: 375px) {
     #moca{
         display: none;
+    }
+    #abacaxi{
+        display: block;
     }
     .bg-imag{
         height: 60vh;
@@ -215,6 +221,9 @@ body{
     }
 }
 @media (min-width: 770px) and (max-width: 894px) {
+    #abacaxi{
+        display: none;
+    }
     .bg-imag{
         text-align: center;
         height: 50vh;
@@ -262,6 +271,9 @@ body{
     }
 }
 @media (min-width: 895px) and (max-width: 1280px) {
+        #abacaxi{
+            display: none; 
+        }
         .texto-banner{
             height: 80%;
             width: 50%;
